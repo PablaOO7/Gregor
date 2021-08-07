@@ -17,6 +17,6 @@ def hammingdist(str1, str2):
 
 str1 = slack_user
 str2 = twitter_user
-Hamming_distance = str(hammingdistance(str1, str2))
+Hamming_distance = str(hammingdist(str1, str2))
  
 print(f'Name: {name}\nEmail: {email}\nSlack Username: {slack_user}\nBiostack: {biostack}\ntwitter_username: {twitter_user}\nHamming distance: {Hamming_distance}')
