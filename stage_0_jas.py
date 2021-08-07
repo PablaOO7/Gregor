@@ -17,5 +17,6 @@ def hammingdist(str1, str2):
 
 str1 = slack_user
 str2 = twitter_user
+Hamming_distance = str(hammingdistance(str1, str2))
  
-print ("Name: "+name, "Email: "+email, "Slack Username: "+slack_user, "Biostack: "+biostack, "twitter_username: "+twitter_user, "Hamming Distance: ",hammingdist(str1, str2), sep = "\n")
+print(f'Name: {name}\nEmail: {email}\nSlack Username: {slack_user}\nBiostack: {biostack}\ntwitter_username: {twitter_user}\nHamming distance: {Hamming_distance}')
